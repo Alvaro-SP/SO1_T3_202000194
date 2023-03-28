@@ -1,0 +1,10 @@
+
+CREATE SCHEMA artist;
+USE artist;
+
+CREATE TABLE songs (
+    id INT NOT NULL AUTO_INCREMENT,
+    artist VARCHAR(255) NOT NULL,
+    song VARCHAR(255) NOT NULL,
+    PRIMARY KEY (id)
+);
